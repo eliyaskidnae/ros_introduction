@@ -1,0 +1,14 @@
+<launch>
+
+    <node name="girona_turtle" pkg="turtlesim" type="turtlesim_node"/>
+    <node name="move_to_point" pkg="ros_intro_1" type="move_to_point.py" args="1 1"/>
+    <!-- <node name="turtle_controll" pkg="turtlesim" type="turtle_teleop_key"/> -->
+    <!-- <node name="draw" pkg="ros_intro_1" type="draw.py" args="2 1"/> -->
+
+    <!-- <arg name="rec_side" default="2" />
+    <arg name="speed" default="1" />    
+    <node name="draw" pkg="ros_intro_1" type="draw_rectangle.py" output="screen">
+        <param name="rec_side" value="$(arg rec_side)" />
+        <param name="speed" value="$(arg speed)" />
+    </node> -->
+</launch>

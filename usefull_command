@@ -1,0 +1,7 @@
+'byobu
+
+
+
+rostopi 
+rostopic echo -c -w 3 - to th lateast message 
+        

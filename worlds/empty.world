@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+<world name="empty">
+<physics type='ode'>
+<max_step_size>0.01</max_step_size>
+<!-- real_time_update_rate: 0 means as fast as posible -->
+<real_time_update_rate>100</real_time_update_rate>
+<gravity>0 0 -9.8</gravity>
+</physics>
+<!-- A global light source -->
+<include>
+<uri>model://sun</uri>
+</include>
+<!-- A ground plane -->
+<include>
+<uri>model://ground_plane</uri>
+</include>
+
+
+<include>
+    <uri>model://ambulance</uri>
+    <name>ambulance</name>
+    <pose>5 5 2 0 0 0.76</pose>
+    <static>0</static>
+</include>
+
+</world>
+</sdf>
